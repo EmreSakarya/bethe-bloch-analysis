@@ -32,12 +32,11 @@ The simulation demonstrates how a phase change (Vaporization or Condensation) in
 ## 📂 Project Structure
 
     bethe-bloch-energy-loss/
-    ├── docs/
-    │   ├── Bethe.pdf              # Detailed project report
-    │   └── fig1_phase_change.png  # Phase change analysis graph
+    ├── bethe-bloch-energy-loss.pdf              # Detailed project report
+    ├── fig1_phase_change.png  # Phase change analysis graph
     ├── src/
-    │   └── bethe_solver.py        # Main simulation code
-    ├── requirements.txt           # Python dependencies
+    │   └── bethe_solver.py    # Main simulation code
+    ├── requirements.txt       # Python dependencies
     └── README.md
 
 ---
@@ -50,7 +49,7 @@ The simulation demonstrates how a phase change (Vaporization or Condensation) in
 ### Running the Simulation
     python src/bethe_solver.py
 
-This script will run the phase change simulations, calculate stopping power curves for Protons and Alphas, and save the result graph to the `docs/` folder.
+This script will run the phase change simulations and save the result graph (`fig1_phase_change.png`) to the main directory.
 
 ---
 
@@ -58,8 +57,8 @@ This script will run the phase change simulations, calculate stopping power curv
 
 **Emre Sakarya**
 * Hacettepe University, Department of Nuclear Engineering
-* Project: NEM 294 Engineering Project I
+* Project: NEM 294 Engineering Project II
 
 ---
 
-*For detailed physics equations and derivations, please refer to the [Project Report](docs/Bethe.pdf).*
+*For detailed physics equations and derivations, please refer to the [Project Report](https://github.com/EmreSakarya/bethe-bloch-analysis/blob/main/bethe-bloch-energy-loss.pdf).*
